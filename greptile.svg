@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820">
+  <rect width="100%" height="100%" fill="#0f172a"/>
+  <text x="40" y="56" fill="#38bdf8" font-size="30" font-family="Arial, sans-serif" font-weight="bold">Greptile local review — attempt</text>
+  <text x="40" y="120" fill="#e2e8f0" font-size="18" font-family="Menlo, monospace">Tool: greptile CLI v3.0.7 (kay@stack.directory / Stack Directory org)</text><text x="40" y="148" fill="#e2e8f0" font-size="18" font-family="Menlo, monospace">Command: greptile review --agent --json -b origin/staging</text><text x="40" y="176" fill="#e2e8f0" font-size="18" font-family="Menlo, monospace">Result: this repository is not connected to Greptile yet</text><text x="40" y="204" fill="#e2e8f0" font-size="18" font-family="Menlo, monospace">Also warned: uncommitted files not included until commit</text><text x="40" y="232" fill="#e2e8f0" font-size="18" font-family="Menlo, monospace">Decision: use GitHub Greptile review on the PR after push</text><text x="40" y="260" fill="#e2e8f0" font-size="18" font-family="Menlo, monospace">Local Greptile produced no findings (could not run analysis)</text><text x="40" y="288" fill="#e2e8f0" font-size="18" font-family="Menlo, monospace">Security + plan cross-check already completed separately</text>
+</svg>

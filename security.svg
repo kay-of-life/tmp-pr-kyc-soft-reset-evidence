@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820">
+  <rect width="100%" height="100%" fill="#0f172a"/>
+  <text x="40" y="56" fill="#38bdf8" font-size="30" font-family="Arial, sans-serif" font-weight="bold">Claude / staged security review</text>
+  <text x="40" y="120" fill="#e2e8f0" font-size="18" font-family="Menlo, monospace">Scope: generateKYCToken sync + sumsubSoftFinalResetSteps + softFinalLabels</text><text x="40" y="148" fill="#e2e8f0" font-size="18" font-family="Menlo, monospace">Confirmed: no Critical/High auth bypass or hard-FINAL unlock</text><text x="40" y="176" fill="#e2e8f0" font-size="18" font-family="Menlo, monospace">Guards: same externalUserId, same level bucket, RETRY or init only</text><text x="40" y="204" fill="#e2e8f0" font-size="18" font-family="Menlo, monospace">Lock: lock:sumsub_kyc_review with owner-scoped releaseLock</text><text x="40" y="232" fill="#e2e8f0" font-size="18" font-family="Menlo, monospace">KYB path unchanged (Forbidden before any sync)</text><text x="40" y="260" fill="#e2e8f0" font-size="18" font-family="Menlo, monospace">Soft mapping still requires all-soft labels and buttons first</text><text x="40" y="288" fill="#e2e8f0" font-size="18" font-family="Menlo, monospace">Residual Low (deferred): blocked users can re-hit Sumsub GET on token</text>
+</svg>

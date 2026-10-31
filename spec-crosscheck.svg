@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820">
+  <rect width="100%" height="100%" fill="#0f172a"/>
+  <text x="40" y="56" fill="#38bdf8" font-size="30" font-family="Arial, sans-serif" font-weight="bold">Plan ↔ code cross-check</text>
+  <text x="40" y="120" fill="#e2e8f0" font-size="18" font-family="Menlo, monospace">Plan: kyc_soft_reset_four_fixes — Fix 1, Fix 3, Fix 4; Advanced ask-only</text><text x="40" y="148" fill="#e2e8f0" font-size="18" font-family="Menlo, monospace">Fix 1 generateKYCToken lock + re-read + GET /one + clear — MATCHES</text><text x="40" y="176" fill="#e2e8f0" font-size="18" font-family="Menlo, monospace">Fix 3 parentSelfie / parentDocument / selfieCompanion — MATCHES</text><text x="40" y="204" fill="#e2e8f0" font-size="18" font-family="Menlo, monospace">Fix 4 UNSATISFACTORY_PHOTOS in softFinalLabels — MATCHES</text><text x="40" y="232" fill="#e2e8f0" font-size="18" font-family="Menlo, monospace">Out of scope kept out: Advanced reset, KYB, full /reset, backfill</text><text x="40" y="260" fill="#e2e8f0" font-size="18" font-family="Menlo, monospace">Intentional test changes: users.e2e FINAL stub; label accept list</text><text x="40" y="288" fill="#e2e8f0" font-size="18" font-family="Menlo, monospace">Ask-Sumsub note: Breet-playground/kyc-soft-reset-support-fixes.md</text>
+</svg>
